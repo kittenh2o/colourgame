@@ -72,7 +72,7 @@ function reset(){
     //pick a new random colo from array
     pickedColor = pickColor();
     //change colorDisplay to match picked color
-    colorDisplay.textContent = pickColor();
+    colorDisplay.textContent = pickedColor;
     //set the visibility of squares according to mode and change colors of squares
     for (let i=0; i< squares.length; i++){
         if (i < numSquares) {
